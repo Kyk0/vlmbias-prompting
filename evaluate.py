@@ -187,7 +187,7 @@ def generate_significance_table(model_keys=None):
                 "Delta (pp)": f"{delta:+.2f}",
                 "McNemar p": f"{p_val:.4f}",
                 "95% CI": f"[{ci_low:+.2f}, {ci_high:+.2f}]",
-                "Significant": "Yes" if p_val < 0.05 else "No",
+                "Significant": "Yes" if p_val < (0.05 / 4) else "No",
             })
 
     df = pd.DataFrame(rows)
