@@ -61,8 +61,7 @@ COT_REPLACEMENT = "Let's think step by step. After your reasoning, provide your 
 CCOT_TURN1_PROMPT = (
     "Generate a scene graph for this image as a JSON object with three keys: "
     "'objects' (list of objects you see), 'attributes' (list of object attributes), "
-    "and 'relationships' (list of relationships between objects). "
-    "Output only the JSON."
+    "and 'relationships' (list of relationships between objects)."
 )
 
 DOUBLECHECK_TURN2_PROMPT = (
@@ -70,7 +69,7 @@ DOUBLECHECK_TURN2_PROMPT = (
     "in curly brackets, following the format above."
 )
 
-BATCH_SIZE = 50
+BATCH_SIZE = 35
 
 SAMPLING_TEMPERATURE = 0.0
 SAMPLING_TOP_P = 1.0
