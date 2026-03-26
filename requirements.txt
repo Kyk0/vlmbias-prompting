@@ -1,0 +1,10 @@
+vllm>=0.8.0
+datasets
+Pillow
+tqdm
+pandas
+numpy
+scipy
+statsmodels
+jsonlines
+tabulate
